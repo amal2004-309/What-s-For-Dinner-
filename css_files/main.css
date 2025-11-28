@@ -1,0 +1,336 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ============================= Start Navbar =============================-- */
+
+.navbar{
+    background:white;
+    border-bottom:1px solid #ffc70354;
+}
+.navbar .logo-icon{
+    background: linear-gradient(to right, #FF5C00, #FD4228);
+    color:white;
+    padding:12px 15px;
+}
+.navbar .logo-content p{
+    color: #4A5565;
+}
+.right-nav .nav-item{
+    color:#4A5565;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.right-nav .nav-item:hover{
+    color:#FF5C00;
+}
+.profile-user{
+    width:40px;
+    height:40px;
+    border:1px solid #FF5C00;
+}
+@media (max-width: 765px){
+    .right-nav{
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        width: 100% !important;
+        gap:0.5rem;
+        padding:0.5rem 0;
+        margin:0;
+    }
+    .right-nav .nav-item{
+        width:100%;
+        justify-content:flex-start;
+        gap:0.5rem;
+    }
+    .right-nav .nav-item span{
+        display:inline !important;
+    }
+
+    .mobile-resposive{
+        border-top:1px solid #EBE7D9;
+        margin-top: 10px;
+    }
+}
+
+/* ============================= End Navbar =============================-- */
+
+
+/* ============================= Start Main Content =============================-- */
+
+
+.main-content, .right-content .head .share span{
+    background-color: #FFFCEB;
+    transition: all 0.3s;
+}
+.right-content .head .share span:hover{
+    background-color: #FFD7A8;
+    cursor: pointer;
+}
+.main-content .right-content .bdg-rl-1{
+    background-color: #DBFCE7;
+    color: #158D47;
+}
+
+.main-content .right-content .bdg-rl-2{
+    background-color: #DBEAFE;
+    color: #2353E8;
+    margin-left: 10px;
+}
+
+.right-content .head .share i{
+    font-size: 15px;
+    color: #F54A00;
+}
+
+/* ============================= End Main Content =============================-- */
+
+.nav-pills .nav-link{
+    background-color: white !important;
+}
+
+.nav-pills .nav-link:hover{
+    color: #364153 !important;
+}
+.nav-pills .nav-link.active{
+    color: #F54A00 !important;
+    border-bottom: 2px solid #FD4228;
+}
+.navs-taps{
+    border-bottom: 1px solid rgb(128 128 128 / 46%);
+}
+
+.navs-1-content{
+    background-color: #FFF9EC;
+    max-height: 370px;
+}
+
+.navs-1-content::-webkit-scrollbar,.navs-3-content::-webkit-scrollbar,.navs-2-content::-webkit-scrollbar,.activities-container::-webkit-scrollbar {
+    width: 8px;      
+}
+
+.navs-1-content::-webkit-scrollbar-track,.navs-3-content::-webkit-scrollbar-track ,.navs-2-content::-webkit-scrollbar-track, .activities-container::-webkit-scrollbar-track {
+    background: #ffdbd2;   
+    border-radius: 8px;
+}
+
+.navs-1-content .number{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #FF6900;
+    font-size: 12px;
+}
+
+.navs-2-content{
+    height: 370px;
+    overflow-y: auto;
+}
+
+.navs-2-content::-webkit-scrollbar {
+    width: 8px;      
+}
+
+.navs-2-content::-webkit-scrollbar-track {
+    background: #ffdbd2;   
+    border-radius: 8px;
+}
+.navs-2-content .number{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #FF6900;
+    font-size: 12px;
+}
+.navs-2-content .number-2{
+    padding: 13px 20px;
+    border-radius: 12px;
+    background-color: #FF6900;
+    font-size: 15px;
+}
+.tru-btn{
+    background: linear-gradient(to right, #FF5C00, #FD4228);
+    
+}
+
+.tru-btn:hover{
+    background: linear-gradient(to right, #FF5C00, #E90006);
+    transform: scale(1.0225);
+    transition: all 0.3s ;
+}
+
+.right-content{
+    border-radius: 0px 30px 30px 0px;
+}
+.main-content .row {
+    height: 100%;
+    min-height: 100vh; 
+}
+
+.left-content .inner,
+.left-content .image-box,
+.left-content .image {
+    height: 100%;
+}
+
+.left-content{
+    border-radius: 30px 0px 0px 30px;
+}
+.left-content .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 0; 
+}
+.navs-3-content{
+    align-content: start;
+    height: 370px !important;
+    overflow-y: auto;
+}
+.navs-3-content .ele3{
+    height: 70px !important;
+    padding: 10px 15px;
+    background-color: #F9FAFB;
+}
+.navs-3-content .icon{
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.navs-3-content .icon{
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.navs-3-content .row {
+    column-gap: 16px;
+}
+.main-content .row {
+    min-height: 38vh;
+}
+.navs-3-content .ele3 {
+    height: 75px !important; 
+    
+    flex: 0 0 calc(50% - 8px) !important;
+    max-width: calc(50% - 8px) !important;
+    box-sizing: border-box;
+    padding: 10px !important;
+}
+
+@media (max-width: 991.98px) {
+    .navs-3-content .ele3 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+#calories{
+    color: #F54A00;
+    background-color: #FFFCEB;
+}
+
+#protein{
+    color: #2353E8;
+    background-color: #2b80ff3d;
+}
+
+#cabohydrates{
+    background-color: #FEF9C2;
+    color: #D08700;
+}
+
+#fat{
+    background-color: #FFE2E2;
+    color: #E7000B;
+}
+
+#fiber{
+    background-color: #DBFCE7;
+    color: #158D47;
+}
+
+#soduim{
+    background-color: #FCE7F3;
+    color: #E60076;
+}
+
+.activities-container, .activities-container-2{
+    position: relative;
+    margin-top: 20px;
+}
+.activities{
+    padding: 25px 15px;
+
+}
+.activities-container-1{
+    border-left: 5px solid #FFB900;
+    background-color: #FFFBEB;
+    padding: 15px;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activities-container{
+    height: 370px;
+    overflow-y: auto;
+}
+
+
+.activities-container-1 .content-1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.activities-container-1 .content-1 span{
+    color: #FFD7A8;
+    background-color: #E17100;
+    font-size: 12px;
+}
+
+.activities-container-1 .content-1 p{
+    color: #565656;
+}
+#span-reviews{
+    font-size: 13px;
+}
+.layer-one{
+    padding: 7px 20px;
+    top: 25px;
+    left: 25px;
+    background-color: white;
+}
+
+.ele p{
+    font-size: 13px;
+}
+
+.layer-two .one .icon i{
+    color: #E17100;
+    font-size: 20px;
+}
+
+.layer-two .two .icon i{
+    color: #FB2C36;
+    font-size: 20px;
+}
+
+.layer-two .three .icon i{
+    color: #2B7FFF;
+    font-size: 20px;
+}
+.image-box { 
+    position: relative; 
+    overflow: visible; 
+}
+.layer-two{
+    right: 25px;    
+    bottom: 25px;   
+    left: 25px;     
+    z-index: 20;    
+    gap: 1.25rem;   
+}
+.layer-one{
+    z-index: 30;
+}
+

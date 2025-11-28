@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What's For Dinner</title>
+    <link rel="stylesheet" href="css_files/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!--============================= Start Navbar =============================-->
+
+    <nav class="navbar navbar-expand-lg shadow py-2 px-4">
+        <div class="container">
+        <!-- الشعار -->
+            <div class="logo-nav d-flex align-items-center gap-2">
+                <div class="logo-icon d-flex align-items-center rounded-circle ">
+                    <span class="fs-6"><i class="fa-solid fa-utensils"></i></span>
+                </div>
+                <div class="logo-content">
+                    <h4 class="fw-bolder mb-0">What's For Dinner</h4>
+                    <p class="mb-0">Your daily meal inspiration</p>
+                </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse mobile-resposive" id="navbarSupportedContent">
+                <div class="right-nav d-flex justify-content-end align-items-center gap-3 ms-auto py-3">
+                    <div class="nav-item d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-bookmark fs-5"></i>
+                    <span class="d-none ">Saved Recipes</span>
+                    </div>
+                    <div class="nav-item d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-clock-rotate-left fs-5"></i>
+                    <span class="d-none ">Recent</span>
+                    </div>
+                    <div class="nav-item d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-gear fs-5"></i>
+                    <span class="d-none ">Settings</span>
+                    </div>
+                    <div class="nav-item d-flex align-items-center gap-2">
+                    <div class="profile-user overflow-hidden rounded-circle">
+                        <img src="images/avatar-4 (1).jpg" class="w-100 h-100 d-block object-fit-cover" alt="User Profile">
+                    </div>
+                    <span class="d-none ">Profile</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </nav>
+
+    <!--============================= End Navbar =============================-->
+
+    <!--============================= Start Main Content =============================-->
+
+
+    <section id="demo" class="container-fluid main-content h-auto  py-5 ">
+        <div class="container rounded-5">
+            <div class="row justify-content-center">
+                <div class="left-content  px-0 bg-info col-12 col-lg-4  object-fit-contain overflow-hidden ">
+                    <div class="inner">
+                        <div class="image-box h-100 position-relative">
+                            <div class="image ">
+                                <img src="images/photo-1455619452474-d2be8b1e70cd.jpeg" class="h-100 object-fit-cover" alt="Reciepes 1">
+                            </div>
+                            <div class="layer-one bg-white rounded-5 position-absolute">
+                                <span><i class="fa-solid fa-star text-warning"></i> <span>4.7</span> <span id="span-reviews" class="text-secondary">(312 reviews)</span></span>
+                            </div>  
+                            <div class="layer-two d-flex justify-content-center gap-5 px-4 py-4 bg-white rounded-4 position-absolute">
+                                <div class="ele one text-center">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+                                    <p class="my-0 text-secondary">Prep Time</p>
+                                    <h6 class="my-0 fw-bolder">15 min</h6>
+                                </div>
+                                <div class="ele two text-center">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-fire-burner"></i>
+                                    </div>
+                                    <p class="my-0 text-secondary">Cook Time</p>
+                                    <h6 class="my-0 fw-bolder">25 min</h6>
+                                </div>
+                                <div class="ele three text-center">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-people-group"></i>
+                                    </div>
+                                    <p class="my-0 text-secondary">Servings</p>
+                                    <h6 class="my-0 fw-bolder">4 people</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-lg-7 bg-white right-content p-5 h-auto overflow-y-auto">
+                    <div class="padges-right mb-3">
+                        <span class="badge bdg-rl-1">Intermediate</span>
+                        <span class="badge bdg-rl-2">Asian</span>
+                    </div>
+                    <div class="head">
+                        <div class="basic d-flex justify-content-between">
+                            <div>
+                                <h3 class="fw-bolder mb-0">Thai Green Curry</h3>
+                            </div>
+                            <div class="share">
+                                <span class="p-2 rounded-2 fs-6"><i class="fa-solid fa-bookmark"></i></span>
+                                <span class="p-2 rounded-2 fs-6"><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                        </div>
+                        <p class="fs-6 pt-2 text-secondary">Vibrant and aromatic curry with vegetables and coconut milk</p>
+                    </div>
+                    <div class="navs-tabs ">
+                        <ul class="nav nav-pills mb-3 d-flex justify-content-center  navs-taps py-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active rounded-0 text-secondary px-4 py-2" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span><i class="fa-solid fa-list-check me-2"></i></span>Ingredients</button>
+                            </li>
+                            <li >
+                                <button class="nav-link rounded-0 text-secondary px-4 py-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span><i class="fa-solid fa-chart-pie me-2"></i></span>Instruction</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-0 text-secondary px-4 py-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span><i class="fa-solid fa-golf-ball-tee me-2"></i></span>Nutrition</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link rounded-0 text-secondary px-4 py-2" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-four" type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><span><i class="fa-solid fa-golf-ball-tee me-2"></i></span>Chef's Tips</button>
+                            </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent"> 
+                            <div class="tab-pane fade show active" id="pills-one" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <section class="navs-1-content rounded-4 py-4 px-4 overflow-auto">
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">1</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">2 tablespoons green curry paste</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">2</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">400ml cocont milk</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">3</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">300g chicken breast, sliced</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">4</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">1 red bell pepper, sliced</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">5</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">100g green beans</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">6</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">1 eggplant, cubed</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">7</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">2 tablespoons fish sauce</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">8</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">1 tablespoons palm suger</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number">
+                                            <span class="fw-bolder text-white">9</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">Fresh Thia basil leaves</p>
+                                    </div>
+                                </section>
+
+                            </div>
+                            <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                <section class="navs-2-content rounded-4 py-4 px-4  overflow-auto">
+                                    <div class="ele d-flex align-items-center gap-3 mb-4">
+                                        <div class="number-2">
+                                            <span class="fw-bolder text-white">1</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">Heat a large pot or wok over medium heat. Add curry paste and cook for 1 minute until fragrant.</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-4">
+                                        <div class="number-2">
+                                            <span class="fw-bolder text-white">2</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">Add half the coconut milk and stir to combine with the curry paste</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-4">
+                                        <div class="number-2">
+                                            <span class="fw-bolder text-white">3</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">Add sliced chicken and cook until no longer pink, about 5 minutes.</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-4">
+                                        <div class="number-2">
+                                            <span class="fw-bolder text-white">4</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">Add remaining coconut milk, vegetables, fish sauce, and palm sugar.</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-4">
+                                        <div class="number-2">
+                                            <span class="fw-bolder text-white">5</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">Simmer for 15-20 minutes until vegetables are tender and sauce has thickened.</p>
+                                    </div>
+                                    <div class="ele d-flex align-items-center gap-3 mb-3">
+                                        <div class="number-2">
+                                            <span class="fw-bolder text-white">6</span>
+                                        </div>
+                                        <p class="mb-0 text-secondary">Stir in fresh Thai basil leaves. Serve hot with jasmine rice.</p>
+                                    </div>
+                                </section>
+                            </div>
+
+
+                            <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                            <section class="navs-3-content rounded-4 py-4 px-4">
+                                    <div class="  ">
+                                        <div class="row gy-1 gx-2">
+                                        <!-- Row 1 -->
+                                        <div class="col-12 col-lg-6 ele3 rounded-4">
+                                            <div class="info-box d-flex justify-content-between align-items-center">
+                                                <div class="info-left d-flex align-items-center gap-3">
+                                                    <span id="calories" class="icon"><i class="fa-solid fa-fire"></i></span>
+                                                    <div>
+                                                        <p class="mb-0">Calories</p>
+                                                    </div>
+                                                </div>
+                                                <div class="info-right">
+                                                    <h5 class="mb-0">420 kcal</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Row 2 -->
+                                        <div class="col-12 col-lg-6 ele3 rounded-4">
+                                            <div class="info-box d-flex justify-content-between align-items-center">
+                                            <div class="info-left d-flex align-items-center gap-3">
+                                                <span id="protein" class="icon"><i class="fa-solid fa-dumbbell"></i></span>
+                                                <div>
+                                                <p class="mb-0">Protein</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-right">
+                                                <h5 class="mb-0">26 g</h5>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Row 3 -->
+                                        <div class="col-12 col-lg-6 ele3 rounded-4">
+                                            <div class="info-box d-flex justify-content-between align-items-center">
+                                            <div class="info-left d-flex align-items-center gap-3">
+                                                <span id="cabohydrates" class="icon"><i class="fa-brands fa-pagelines"></i></span>
+                                                <div>
+                                                <p class="mb-0">Cabohydrates</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-right">
+                                                <h5 class="mb-0">22 g</h5>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Row 4 -->
+                                        <div class="col-12 col-lg-6 ele3 rounded-4">
+                                            <div class="info-box d-flex justify-content-between align-items-center">
+                                            <div class="info-left d-flex align-items-center gap-3">
+                                                <span id="fat" class="icon"><i class="fa-solid fa-droplet"></i></span>
+                                                <div>
+                                                <p class="mb-0">Fat</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-right">
+                                                <h5 class="mb-0">26 g</h5>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Row 5 -->
+                                        <div class="col-12 col-lg-6 ele3 rounded-4">
+                                            <div class="info-box d-flex justify-content-between align-items-center">
+                                            <div class="info-left d-flex align-items-center gap-3">
+                                                <span id="fiber" class="icon"><i class="fa-solid fa-seedling"></i></span>
+                                                <div>
+                                                <p class="mb-0">Fiber</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-right">
+                                                <h5 class="mb-0">5 g</h5>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Row 6 -->
+                                        <div class="col-12 col-lg-6 ele3 rounded-4">
+                                            <div class="info-box d-flex justify-content-between align-items-center">
+                                            <div class="info-left d-flex align-items-center gap-3">
+                                                <span id="soduim" class="icon"><i class="fa-solid fa-cube"></i></span>
+                                                <div>
+                                                <p class="mb-0">Sodium</p>
+                                                </div>
+                                            </div>
+                                            <div class="info-right">
+                                                <h5 class="mb-0">828 mg</h5>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </section>
+
+                            </div>
+                            
+
+                            <!-- ============= 3 ============== -->
+
+                            <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                                <div class="activities-container container pb-5">
+                                        <div class="activities-container-1 mb-4">
+                                            <div class="content-1 d-flex">
+                                                <span class="rounded-circle p-1"><i class="fa-solid fa-check"></i></span>
+                                                <p>Adjust spice level by using more or less curry paste</p>
+                                            </div>
+                                        </div>
+                                        <div class="activities-container-1 mb-4">
+                                            <div class="content-1 d-flex">
+                                                <span class="rounded-circle p-1"><i class="fa-solid fa-check"></i></span>
+                                                <p>Adjust spice level by using more or less curry paste</p>
+                                            </div>
+                                        </div>
+                                        <div class="activities-container-1 mb-4">
+                                            <div class="content-1 d-flex">
+                                                <span class="rounded-circle p-1"><i class="fa-solid fa-check"></i></span>
+                                                <p>Adjust spice level by using more or less curry paste</p>
+                                            </div>
+                                        </div>
+                                        <div class="activities-container-1 mb-4">
+                                            <div class="content-1 d-flex">
+                                                <span class="rounded-circle p-1"><i class="fa-solid fa-check"></i></span>
+                                                <p>Adjust spice level by using more or less curry paste</p>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="my-3 hr">
+                    
+                    <button onclick="changeRecieps()" class="btn tru-btn py-3 px-4 rounded-4 border-0 mb-4 fw-bolder text-white "><span><i class="fa-solid fa-arrows-rotate"></i> Try Another Recieps</span></button>
+                </div> 
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--============================= End Main Content =============================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js_files/main.js"></script>
+</body>
+</html>
