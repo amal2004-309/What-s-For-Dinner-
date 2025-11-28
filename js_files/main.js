@@ -207,7 +207,7 @@ function changeRecieps() {
                     <div class="inner">
                         <div class="image-box h-100 position-relative">
                             <div class="image ">
-                                <img src=${recipes[randomNumber].img} class="h-100 object-fit-cover" alt="Reciepes 1">
+                                <img src="${recipes[randomNumber].img}" class="h-100 object-fit-cover" alt="Reciepes 1">
                             </div>
                             <div class="layer-one bg-white rounded-5 position-absolute">
                                 <span><i class="fa-solid fa-star text-warning"></i> <span>${recipes[randomNumber].rating}</span> <span id="span-reviews" class="text-secondary">(${recipes[randomNumber].reviews})</span></span>
