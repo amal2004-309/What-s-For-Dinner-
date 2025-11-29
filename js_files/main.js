@@ -2,7 +2,7 @@
 const recipes = [
 {
     title: "French Onion Soup",
-    img:"../images/photo-1455619452474-d2be8b1e70cd.jpeg",
+    img:"./images/photo-1455619452474-d2be8b1e70cd.jpeg",
     rating: 4.7,
     reviews: 267,
     prepTime: "15 min",
@@ -37,7 +37,7 @@ const recipes = [
     title: "Chicken Alfredo Pasta",
     rating: 4.8,
     reviews: 421,
-    img:"../images/photo-1467003909585-2f8a72700288.jpeg",
+    img:"./images/photo-1467003909585-2f8a72700288.jpeg",
     prepTime: "20 min",
     cookTime: "30 min",
     servings: 3,
@@ -71,7 +71,7 @@ const recipes = [
     title: "Beef Tacos",
     rating: 4.2,
     reviews: 310,
-    img:"../images/photo-1529692236671-f1f6cf9683ba.jpeg",
+    img:"./images/photo-1529692236671-f1f6cf9683ba.jpeg",
     prepTime: "10 min",
     cookTime: "15 min",
     servings: 4,
@@ -105,7 +105,7 @@ const recipes = [
     title: "Vegetable Stir Fry",
     rating: 4.6,
     reviews: 189,
-    img:"../images/photo-1546069901-eacef0df6022.jpeg",
+    img:"./images/photo-1546069901-eacef0df6022.jpeg",
     prepTime: "15 min",
     cookTime: "10 min",
     servings: 2,
@@ -139,7 +139,7 @@ instruction: [
     title: "Margherita Pizza",
     rating: 4.9,
     reviews: 502,
-    img:"../images/photo-1565299585323-38d6b0865b47.jpeg",
+    img:"./images/photo-1565299585323-38d6b0865b47.jpeg",
     prepTime: "25 min",
     cookTime: "15 min",
     servings: 2,
@@ -207,7 +207,7 @@ function changeRecieps() {
                     <div class="inner">
                         <div class="image-box h-100 position-relative">
                             <div class="image ">
-                                <img src="${recipes[randomNumber].img}" class="h-100 object-fit-cover" alt="Reciepes 1">
+                                <img src=${recipes[randomNumber].img} class="h-100 object-fit-cover" alt="Reciepes 1">
                             </div>
                             <div class="layer-one bg-white rounded-5 position-absolute">
                                 <span><i class="fa-solid fa-star text-warning"></i> <span>${recipes[randomNumber].rating}</span> <span id="span-reviews" class="text-secondary">(${recipes[randomNumber].reviews})</span></span>
